@@ -1,0 +1,36 @@
+
+    body {
+      font-family: 'Look Serif Wood Regular', serif;
+      background-color: #D9D9D9;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #355480;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .navbar, .footer {
+      background-color: #355480;
+    }
+    .navbar .nav-link, .footer a {
+      color: #D9D9D9 !important;
+    }
+    .btn-primary {
+      background-color: #355480;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #2c456a;
+    }
+    .highlight {
+      font-style: italic;
+      color: #355480;
+    }
+    .decorative-icon {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.5rem;
+      border-radius: 100%;
+    }
+  
