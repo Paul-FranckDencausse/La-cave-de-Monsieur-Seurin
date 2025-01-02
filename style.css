@@ -94,3 +94,33 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f0f0f0;
   color: #2c456a !important;
 }
+
+/* Styles pour les cartes de produits */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  height: 300px; /* Ajustez la hauteur des images */
+  object-fit: cover;
+}
+
+.card-title {
+  color: #355480;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Styles pour le footer */
+.footer {
+  background-color: #355480;
+  color: #D9D9D9;
+}
