@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotions - La Cave de Monsieur Seurin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation principale -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.jpg" alt="Logo" class="decorative-icon" width="10%">
+        La Cave de Monsieur Seurin
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#wines">Nos Vins</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#clic">Clique & Collecte</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Barre de navigation secondaire -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSecondary">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+              Types d'Alcools
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html#wines">Vins</a></li>
+              <li><a class="dropdown-item" href="#">Spiritueux</a></li>
+              <li><a class="dropdown-item" href="#">Bières</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Autres Alcools</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="promotions.html">Promotions</a></li>
+          <li class="nav-item"><a class="nav-link" href="new-arrivals.html">Nouveautés</a></li>
+          <li class="nav-item"><a class="nav-link" href="best-sellers.html">Meilleures Ventes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenu de la page Promotions -->
+  <div class="container my-5">
+    <h1 class="text-center">Promotions</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/promo-product1.jpg" class="card-img-top" alt="Produit en Promotion 1">
+          <div class="card-body">
+            <h5 class="card-title">Vin Rouge en Promotion</h5>
+            <p class="card-text">Un vin rouge riche et corsé, parfait pour accompagner vos repas.</p>
+            <p class="card-text"><strong>Prix : 15€</strong> <del>20€</del></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/promo-product2.jpg" class="card-img-top" alt="Produit en Promotion 2">
+          <div class="card-body">
+            <h5 class="card-title">Whisky en Promotion</h5>
+            <p class="card-text">Un whisky doux et équilibré, idéal pour les amateurs de whisky.</p>
+            <p class="card-text"><strong>Prix : 25€</strong> <del>35€</del></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="images/promo-product3.jpg" class="card-img-top" alt="Produit en Promotion 3">
+          <div class="card-body">
+            <h5 class="card-title">Bière Artisanale en Promotion</h5>
+            <p class="card-text">Une bière artisanale légère et rafraîchissante, parfaite pour les journées ensoleillées.</p>
+            <p class="card-text"><strong>Prix : 10€</strong> <del>15€</del></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p class="mb-0 text-light">&copy; 2024 La Cave de Monsieur Seurin - Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
