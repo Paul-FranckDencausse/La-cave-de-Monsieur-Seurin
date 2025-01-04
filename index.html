@@ -23,22 +23,22 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="#about">
-              <i class="fas fa-info-circle">Notre Equipe</i> 
+              <i class="fas fa-info-circle"></i> Notre Equipe
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#wines">
-              <i class="fas fa-wine-glass-alt">Nos vins et alcools</i> 
+              <i class="fas fa-wine-glass-alt"></i> Nos vins et alcools
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#clic">
-              <i class="fas fa-shopping-cart">Boutique en clique & collecte</i> 
+              <i class="fas fa-shopping-cart"></i> Boutique en clique & collecte
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">
-              <i class="fas fa-envelope">Nous contacter</i> 
+              <i class="fas fa-envelope"></i> Nous contacter
             </a>
           </li>
         </ul>
@@ -59,26 +59,67 @@
               Types d'Alcools
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="navBottom/dropDown/wines.html">Vins</a></li>
-              <li><a class="dropdown-item" href="navBottom/dropDown/spirits.html">Spiritueux</a></li>
-              <li><a class="dropdown-item" href="navBottom/dropDown/beers.html">Bières</a></li>
+              <li><a class="dropdown-item" href="wines.html">Vins</a></li>
+              <li><a class="dropdown-item" href="spirits.html">Spiritueux</a></li>
+              <li><a class="dropdown-item" href="beers.html">Bières</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="navBottom/dropDown/other-alcohols.html">Autres Alcools</a></li>
+              <li><a class="dropdown-item" href="other-alchols.html">Autres Alcools</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="navBottom/promotions.html">Promotions</a></li>
-          <li class="nav-item"><a class="nav-link" href="navBottom/new-arrivals.html">Nouveautés</a></li>
-          <li class="nav-item"><a class="nav-link" href="navBottom/best-sellers.html">Meilleures Ventes</a></li>
+          <li class="nav-item"><a class="nav-link" href="promotions.html">Promotions</a></li>
+          <li class="nav-item"><a class="nav-link" href="new-arrivals.html">Nouveautés</a></li>
+          <li class="nav-item"><a class="nav-link" href="best-sellers.html">Meilleures Ventes</a></li>
         </ul>
       </div>
     </div>
   </nav>
     <!-- Header -->
-    <header class="text-center py-5 bg-light" id="home">
-      <div class="container">
-        <h1 class="display-4">Bienvenue à La Cave de Monsieur Seurin</h1>
-        <p class="lead highlight">Un hommage au terroir et à l'humour français</p>
+    <header class=" " id="home">
+      <div id="carouselExampleIndicators" class="carousel slide my-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active position-relative">
+            <img src="./images/bordeaux.jpg" class="d-block w-100" alt="Vin Bordeaux">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Découvrez nos vins de Bordeaux</h3>
+              <p>La quintessence du terroir français.</p>
+              <a href="#wines" class="btn btn-primary">Voir les Vins</a>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item position-relative">
+            <img src="./images/beaujolais.jpg" class="d-block w-100" alt="Vin Bourgogne">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Savourez le Beaujolais Nouveau</h3>
+              <p>Une fête pour les papilles.</p>
+              <a href="#wines" class="btn btn-primary">Explorer</a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item position-relative">
+            <img src="./images/champagne.jpg" class="d-block w-100" alt="Champagne">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Un Champagne pour chaque occasion</h3>
+              <p>Faites pétiller vos moments de vie.</p>
+              <a href="#contact" class="btn btn-primary">Nous Contacter</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
       </div>
+      
     </header>
     
 <!-- À propos -->
@@ -96,33 +137,6 @@
           <li><strong>Humour :</strong> Une touche ludique dans chaque expérience.</li>
           <li><strong>Conseils personnalisés :</strong> Pour satisfaire toutes vos envies œnologiques.</li>
         </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Nos Vins -->
-<section class="py-5 bg-light" id="wines">
-  <div class="container">
-    <h2 class="text-center mb-4">Notre Sélection de Vins</h2>
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <img src="https://imgs.search.brave.com/9WmP95eHD_19jN5Nfa8zf5CP5QXzLD2wz8L0b6yU8lQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwYXJpc2llbi5m/ci9yZXNpemVyL3Bx/SE5MYXhDa2pVbWFa/emhoZU9rNWdyY01f/az0vOTMyeDU4Mi9j/bG91ZGZyb250LWV1/LWNlbnRyYWwtMS5p/bWFnZXMuYXJjcHVi/bGlzaGluZy5jb20v/bHBndWlkZXNob3Bw/aW5nL0JMN0NSUlRK/SUZFSjdMSTZQRkg3/VE9MVFZZLmpwZw"
-         alt="Bouteille de vin" class="img-fluid mb-3">
-        <h4>Vin Rouge</h4>
-        <p class="highlight">Une robe intense, un goût audacieux.</p>
-
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://imgs.search.brave.com/xjuPmDyuAytTzxb9SlxyIf8kpxw_-KXSrGbm13kjfFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXNwYWNlLWNvbmNv/dXJzLmZyL3VwbG9h/ZHMvMjAyMS8xMi9l/Yy12aW4tYmxhbmMt/NTQweDM2MC5qcGc"
-        alt="Bouteille de vin" class="img-fluid mb-3">
-        <h4>Vin Blanc</h4>
-        <p class="highlight">Fraîcheur et élégance à chaque gorgée.</p>
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="https://imgs.search.brave.com/L9cBqkmfZOM5IfpjfGg9WFuaU_N1KNVx0nNMs8_dnwo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kb21h/aW5lZHVnb3V0LmNv/bS9pbWcvY21zL0Js/b2cvVmVycmVzJTIw/ZGUlMjByb3MlQzMl/QTkuanBn" alt="Bouteille de vin" class="img-fluid mb-3">
-        <h4>Vin Rosé</h4>
-        <p class="highlight">Léger, fruité, idéal pour l’été.</p>
       </div>
     </div>
   </div>
