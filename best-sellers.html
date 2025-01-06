@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Cave de Monsieur Seurin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="style.css" rel="stylesheet">
-  </head>
-  
-  <body>
-<!-- Navigation principale -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">
-      <img src="images/logo.jpg" alt="Logo" class="decorative-icon" width="10%">
-      La Cave de Monsieur Seurin
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
-            <i class="fas fa-info-circle"></i>  Notre équipe
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#wines">
-            <i class="fas fa-wine-glass-alt"></i> Nos vins et alcools
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#clic">
-            <i class="fas fa-shopping-cart"></i> Boutique en clique & collecte
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">
-            <i class="fas fa-envelope"></i> Nous contacter
-          </a>
-        </li>
-      </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autres Alcools - La Cave de Monsieur Seurin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation principale -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.jpg" alt="Logo" class="decorative-icon" width="10%">
+        La Cave de Monsieur Seurin
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#wines">Nos Vins</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#clic">Clique & Collecte</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
   <!-- Barre de navigation secondaire -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
     <div class="container">
@@ -59,30 +43,32 @@
               Types d'Alcools
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="index.html#wines">Vins</a></li>
-              <li><a class="dropdown-item" href="#">Spiritueux</a></li>
-              <li><a class="dropdown-item" href="#">Bières</a></li>
+              <li><a class="dropdown-item" href="wines.html">Vins</a></li>
+              <li><a class="dropdown-item" href="spirits.html">Spiritueux</a></li>
+              <li><a class="dropdown-item" href="beers.html">Bières</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Autres Alcools</a></li>
+              <li><a class="dropdown-item" href="other-alcohols.html">Autres Alcools</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Promotions</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Nouveautés</a></li>
+          <li class="nav-item"><a class="nav-link" href="promotions.html">Promotions</a></li>
+          <li class="nav-item"><a class="nav-link" href="new-arrivals.html">Nouveautés</a></li>
           <li class="nav-item"><a class="nav-link" href="best-sellers.html">Meilleures Ventes</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <!-- Contenu de la page Meilleures Ventes -->
   <div class="container my-5">
     <h1 class="text-center">Meilleures Ventes</h1>
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.taittinger.com%2Fsites%2Fdefault%2Ffiles%2F2018-12%2F02.jpg&f=1&nofb=1&ipt=0374ca314f37c9cea48baabb8a968c809d56433a3f1bd54a04beb20bf3848bff&ipo=images" class="card-img-top" alt="Produit 1">
+          <div class="position-relative">
+            <img src="images/champagne.jpg" class="card-img-top" alt="Produit 1">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Champagne Taittinger</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Champagne Taittinger</h5>
             <p class="card-text">Un champagne élégant et raffiné, parfait pour les occasions spéciales.</p>
             <p class="card-text"><strong>Prix : 45€</strong></p>
           </div>
@@ -90,9 +76,13 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whisky.de%2Ffileadmin%2Fweb_data%2Ftx_datamintsflaschendb%2Fflaschen%2F0_fe46e5_Jack_Daniels_Fire.jpg&f=1&nofb=1&ipt=ad4f41bc705473a2f382eadaf2da92719edbd04d87c4c9b6072377c55e8a5a69&ipo=images" class="card-img-top" alt="Produit 2">
+          <div class="position-relative">
+            <img src="images/whisky.jpg" class="card-img-top" alt="Produit 2">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Whisky Tennessee Fire</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Whisky Tennessee Fire</h5>
             <p class="card-text">Un whisky épicé avec des notes de cannelle, idéal pour les amateurs de sensations fortes.</p>
             <p class="card-text"><strong>Prix : 30€</strong></p>
           </div>
@@ -100,9 +90,13 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.weinquelle.com%2Ffotos_gross%2Fs904.jpg&f=1&nofb=1&ipt=56cc627eb2736d5fceb4474dba5216b61f93caa51f5549b3542fe98e21d2caaf&ipo=images" class="card-img-top" alt="Produit 3">
+          <div class="position-relative">
+            <img src="images/cognac.jpg" class="card-img-top" alt="Produit 3">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Cointreau</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Cointreau</h5>
             <p class="card-text">Une liqueur d'orange douce et aromatique, parfaite pour les cocktails.</p>
             <p class="card-text"><strong>Prix : 25€</strong></p>
           </div>
@@ -110,9 +104,7 @@
       </div>
     </div>
   </div>
-<br>
-
-<br>
+  
   <!-- Footer -->
   <footer class="footer text-center py-4">
     <div class="container">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Cave de Monsieur Seurin</title>
+  <title>Autres Alcools - La Cave de Monsieur Seurin</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="style.css" rel="stylesheet">
@@ -12,35 +12,19 @@
   <!-- Navigation principale -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.jpg" alt="Logo" class="decorative-icon d-lg-none" width="20%">
-        <span class="d-none d-md-inline">La Cave de Monsieur Seurin</span>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.jpg" alt="Logo" class="decorative-icon" width="10%">
+        La Cave de Monsieur Seurin
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">
-              <i class="fas fa-info-circle"></i> Notre Equipe
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#wines">
-              <i class="fas fa-wine-glass-alt"></i> Nos vins et alcools
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#clic">
-              <i class="fas fa-shopping-cart"></i> Boutique en clique & collecte
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">
-              <i class="fas fa-envelope"></i> Nous contacter
-            </a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#wines">Nos Vins</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#clic">Clique & Collecte</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -63,7 +47,7 @@
               <li><a class="dropdown-item" href="spirits.html">Spiritueux</a></li>
               <li><a class="dropdown-item" href="beers.html">Bières</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="other-alchols.html">Autres Alcools</a></li>
+              <li><a class="dropdown-item" href="other-alcohols.html">Autres Alcools</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="promotions.html">Promotions</a></li>
@@ -73,15 +57,18 @@
       </div>
     </div>
   </nav>
-  <!-- Contenu de la page Nouveautés -->
   <div class="container my-5">
     <h1 class="text-center">Nouveautés</h1>
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="images/beaujolais.jpg" class="card-img-top" alt="Nouveau Produit 1">
+          <div class="position-relative">
+            <img src="images/beaujolais.jpg" class="card-img-top" alt="Nouveau Produit 1">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Nouveau Vin Rouge</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Nouveau Vin Rouge</h5>
             <p class="card-text">Un vin rouge riche et corsé, parfait pour accompagner vos repas.</p>
             <p class="card-text"><strong>Prix : 20€</strong></p>
           </div>
@@ -89,9 +76,13 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="images/whisky.jpg" class="card-img-top" alt="Nouveau Produit 2">
+          <div class="position-relative">
+            <img src="images/whisky.jpg" class="card-img-top" alt="Nouveau Produit 2">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Nouveau Whisky Écossais</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Nouveau Whisky Écossais</h5>
             <p class="card-text">Un whisky écossais doux et équilibré, idéal pour les amateurs de whisky.</p>
             <p class="card-text"><strong>Prix : 35€</strong></p>
           </div>
@@ -99,9 +90,13 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img src="images/brune.jpg" class="card-img-top" alt="Nouveau Produit 3">
+          <div class="position-relative">
+            <img src="images/brune.jpg" class="card-img-top" alt="Nouveau Produit 3">
+            <div class="image-overlay d-flex align-items-center justify-content-center">
+              <p class="text-white text-center m-0">Nouvelle Bière Artisanale</p>
+            </div>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Nouvelle Bière Artisanale</h5>
             <p class="card-text">Une bière artisanale légère et rafraîchissante, parfaite pour les journées ensoleillées.</p>
             <p class="card-text"><strong>Prix : 15€</strong></p>
           </div>
@@ -109,7 +104,7 @@
       </div>
     </div>
   </div>
-
+  
   <!-- Footer -->
   <footer class="footer text-center py-4">
     <div class="container">
