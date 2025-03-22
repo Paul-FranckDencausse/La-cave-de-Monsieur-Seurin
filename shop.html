@@ -62,29 +62,15 @@
     <div class="container text-center">
       <h2 class="mb-4">Clique & Collecte</h2>
       <p>Commandez en ligne et récupérez vos bouteilles en boutique sans attendre.</p>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <div class="mb-3">
-          <label for="name" class="form-label">Nom</label>
-          <input type="text" class="form-control" id="name" name="nom" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <div class="mb-3">
-          <label for="wine" class="form-label">Vin</label>
-          <select class="form-control" id="wine" name="vin" required>
-            <option value="vin-rouge">Vin Rouge</option>
-            <option value="vin-blanc">Vin Blanc</option>
-            <option value="vin-rose">Vin Rosé</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="quantity" class="form-label">Quantité</label>
-          <input type="number" class="form-control" id="quantity" name="quantite" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Commander Maintenant</button>
-      </form>
+      <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1R5XmLL8QZCmrwStmL0wUsoz"
+  publishable-key="pk_live_51QZyPrL8QZCmrwStgmUdRUjy5CoGnqZtBJ6FVpmtQu2V7XmeidbatjpQLUufZRCxlSMmprT1ZspwMD05mXEEXP2r00ZUjn1vgI"
+>
+</stripe-buy-button>
     </div>
   </section>
 
